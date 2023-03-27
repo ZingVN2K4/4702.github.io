@@ -1,3 +1,10 @@
+<?php
+//code by
+if(isset($_GET['url'])){
+$url = $_GET ['url'] ;
+}
+?>
+
 <html>
 
 <head>
@@ -26,7 +33,7 @@
 
 
 <video class="lazy" width="100%" height="100%" controls autoplay controlsList="nodownload" oncontextmenu="return false;">
-    <source src="https://24211099.fs1.hubspotusercontent-na1.net/hubfs/24211099/9B0lEZSS-PYKmlsZf.mp4" type="video/mp4" />
+    <source src="<?php echo $url; ?>" type="video/mp4" />
 </video>
 <script>
 
