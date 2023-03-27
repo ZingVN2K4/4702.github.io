@@ -1,6 +1,6 @@
 <?php
 //code by
-if(isset($_GET['url'])){
+url(isset($_GET['url'])){
 $url = $_GET ['url'] ;
 }
 ?>
